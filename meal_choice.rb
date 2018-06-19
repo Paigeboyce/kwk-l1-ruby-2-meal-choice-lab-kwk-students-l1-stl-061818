@@ -8,17 +8,17 @@ end
 def breakfast(food = "frosted flakes")
   puts "Morning is the best time for #{food}"
 end
-breakfast 
+breakfast(pancakes)
 
  def lunch(food = "grilled cheese")
    puts "Afternoon is the best time for #{food}"
  end
-lunch
+lunch(chicken nugets)
 
 def dinner(food = "Salmon")
   puts "Night time is the best time for #{food}"
 end
-dinner
+dinner(pasta)
 
 
 # Call the methods with puts and your own arguments here. Like this:
